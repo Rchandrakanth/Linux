@@ -1,0 +1,346 @@
+ 163  sudo apt install rsyslog
+  164  sudo systemctl enable rsyslog
+  165  ls /var/log
+  166  ls
+  167  tail -f /var/log/syslog
+  168  sudo tail -f /var/log/syslog
+  169  cp /var/log/syslog file.txt
+  170  sudo cp /var/log/syslog file.txt
+  171  ls
+  172  cat file.txt
+  173  sudo cat file.txt
+  174  ls
+  175  du file.txt
+  176  df file.txt
+  177  ls -l
+  178  ls -lh
+  179  gzip filext
+  180  gzip file.txt
+  181  sudo gzip file.txt
+  182  ls -lh
+  183  ls
+  184  ld
+  185  ls
+  186  sudo cat file.txt.gz
+  187  ls
+  188  zcat file.txt.gz
+  189  sudo zcat file.txt.gz
+  190  ls
+  191  zmore file.txt.gz
+  192  sudo gmore file.txt.gz
+  193  sudo zmore file.txt.gz
+  194  ls
+  195  ls -lh
+  196  du file.txt.gz
+  197  df file.txt.gz
+  198  cd
+  199  ls
+  200  sudo zcat file.txt.gz
+  201  ls
+  202  grep kernel file.txt.gz
+  203  sudo zgrep kernel file.txt.gz
+  204  ls
+  205  sudo gzip -l file.txt.gz
+  206  ls
+  207  gzip file1 file2 file3
+  208  ls
+  209  ls -lh
+  210  sudo unzip file.txt.gz
+  211  sudo gunzip file.txt.gz
+  212  ls
+  213  ls -lh
+  214  sudo gzip file.txt
+  215  ls
+  216  sudo cat file.txt.gz
+  217  ls
+  218  sudo zcat file.txt.gz
+  219  ls
+  220  sudo grep kernel file.txt.gz
+  221  sudo zgrep kernel file.txt.gz
+  222  ls
+  223  sudo gunzip file.txt.gz
+  224  ls
+  225  ls -lh
+  226  ls
+  227  sudo gzip file.txt
+  228  ls
+  229  ls -lh
+  230  sudo gunzip file.txt.gz
+  231  ls
+  232  gzip -k file.txt
+  233  sudo gzip -k file.txt
+  234  ls
+  235  man bzip2
+  236  sudo apt install man
+  237  man bzip2
+  238  man bzip
+  239  man ls
+  240  man bzip2
+  241  ls
+  242  ls -lh
+  243  sudo bzip file.txt
+  244  sudo bzip2 file.txt
+  245  sudo apt install bzip2
+  246  man bzip2
+  247  what bgzip2
+  248  what bzip2
+  249  whatis bzip2
+  250  which bzip2
+  251  locate bzip2
+  252  ls
+  253  sudo bzip2 file.txt
+  254  ls
+  255  ls -l
+  256  sudo bunzip2 file.txt.
+  257  sudo unzip2 file.txt.
+  258  sudo unzip2 file.txt.bz2
+  259  sudo bunzip2 file.txt.bz2
+  260  ls
+  261  sudo bzip2 file.txt
+  262  ls -l
+  263  ls -lh
+  264  sudo bunzip2 file.txt.bz2
+  265  sudo bzip2 file.txt
+  266  ls -lh
+  267  sudo bzcat file.txt.bz2
+  268  ls
+  269  sudo bzmore file.txt.
+  270  sudo bzmore file.txt.bz2
+  271  sudo bzgrep kernel file.txt.bz2
+  272  lls
+  273  bzip2 file file2
+  274  sudo bzunzip file.txt.bz2
+  275  sudo bunzip file.txt.bz2
+  276  sudo bzunzip file.txt.bz2
+  277  ls
+  278  sudo gunzip file.txt.gz
+  279  ls
+  280  sudo bzunzip file.txt.bz2
+  281  sudo bunzip file.txt.bz2
+  282  sudo bunzip2 file.txt.bz2
+  283  ls
+  284  sudo bzunzip2 file.txt.bz2
+  285  sudo bunzip2 file.txt.bz2
+  286  ls
+  287  sudo rm file.txt
+  288  sudo bunzip2 file.txt.bz2
+  289  sudo bzip2 file.txt
+  290  ls
+  291  sudo bunzip file.txt.bz2
+  292  sudo bunzip2 file.txt.bz2
+  293  ls
+  294  sudo bzip2 -k file.txt
+  295  ls
+  296  man xz
+  297  sudo apt install xz
+  298  xz file.txt
+  299  ls
+  300  # sudo gzip file.txt
+  301  ls
+  302  sudo gzip file.txt
+  303  ls
+  304  sudo gunzip file.txt
+  305  ls
+  306  sudo gzip file.txt
+  307  ls
+  308  sudo cat file.txt.
+  309  sudo cat file.txt
+  310  sudo zcat file.txt
+  311  ls
+  312  sudo grep kernel file.txt.gz
+  313  sudo zgrep kernel file.txt.gz
+  314  sudo gunzip file.txt.gz
+  315  ls
+  316  sudo bzip2 file.txt
+  317  sudo bunzip2 file.txt.bz2
+  318  sudo mv file.txt file1.txt
+  319  ls
+  320  sudo bunzip2 file.txt.bz2
+  321  ls
+  322  ls -lh
+  323  sudo bzip2 file.txt
+  324  ls
+  325  sudo zcat file.txt.bz2
+  326  sudo bzcat file.txt.bz2
+  327  ls
+  328  sudo gzip file1.txt
+  329  ls
+  330  sudo zcat file1.txt.gz
+  331  la
+  332  ls
+  333  sudo gzip file1.txt.gz
+  334  sudo gunzip file1.txt.gz
+  335  ls
+  336  sudo bzip2 file1.txt.bz
+  337  sudo bzip2 file.txt.bz
+  338  ls
+  339  sudo bunzip2 file.txt.bz2
+  340  ls
+  341  ls -lh
+  342  zip archive.zip file1.txt file.txt
+  343  sudo apt install zip
+  344  sudo zip archive file.txt file1.txt
+  345  ls
+  346  ls -lh
+  347  zcat  archive.zip
+  348  ls
+  349  unzip -l archive.zip
+  350  sudo apt install unzip
+  351  unzip -l archive.zip
+  352  ls
+  353  unzip -p archive.zip  file.txt
+  354  la
+  355  ls
+  356  zcat archive.zip
+  357  unzip -l archive.zip
+  358  unzip -l archive.zip  file.txt
+  359  history
+  360  ls
+  361  mkdir my_directory
+  362  ls
+  363  cd my_directory/
+  364  ls
+  365  cd
+  366  touch my_directory/file{1..10}
+  367  ls
+  368  cat my_directory/
+  369  ls my_directory/
+  370  ls
+  371  zip archive -r my_directory/
+  372  sudo zip archive -r my_directory/
+  373  ls
+  374  cd my_directory/
+  375  ls
+  376  cd
+  377  ls
+  378  sudo zip my_archive -r my_directory/
+  379  ls
+  380  sudo -s
+  381  ls
+  382  cd my_
+  383  cd my_directory/
+  384  ls
+  385  cd
+  386  sudo zip my_archive1 -r my_directory/
+  387  ls
+  388  sudo -l my_archive.zip
+  389  sudo unzip  -l my_archive.zip
+  390  ls
+  391  history
+  392  ls
+  393  sudo unzip  -l my_archive.zip
+  394  sudo unzip  -l my_archive.zip  file1.txt
+  395  sudo unzip  -l file1.txt
+  396  ls -lh
+  397  unzip -l archive.zip
+  398  ls
+  399  cd my_
+  400  cd my_directory/
+  401  ls
+  402  touch file20.txt
+  403  cd
+  404  ls
+  405  sudo unzip my_archive1.zip
+  406  ls
+  407  sudo unzip my_archive1.zip
+  408  LS
+  409  ls
+  410  cd my_directory/
+  411  ls
+  412  cd
+  413  ls
+  414  sudo unzip archive.zip
+  415  n
+  416  ls
+  417  sudo unzip archive.zip
+  418  ls
+  419  cd my_directory/
+  420  ls
+  421  sudo zip -r myarchive2.zip my_directory/ -z "text20.txt"
+  422  sudo zip -r myarchive2.zip my_directory/ -z "text20.txtcd"
+  423  cd
+  424  sudo zip -r myarchive2.zip my_directory/ -z "text20.txt"
+  425  ls
+  426  sudo zip -r myarchive2.zip my_directory/ -z "text20.txt"
+  427  sudo zip -r myarchive2.zip my_directory/ -x "text20.txt"
+  428  ls
+  429  sudo unzip myarchive2.zip
+  430  ls
+  431  unzip -l archive.zip
+  432  sudo unzip archive.zip -d /tmp
+  433  cd /tmp
+  434  ls
+  435  cd my_directory/
+  436  ls
+  437  cd
+  438  ls
+  439  sudo unzip archive.zip
+  440  L
+  441  ls
+  442  cd my
+  443  cd my_directory/
+  444  ls
+  445  sudo tar -zxf hello.tar file1.txt
+  446  ls
+  447  sudo tar -zxf hello.tar file1
+  448  sudo tar -cvf hello.tar file1
+  449  ls
+  450  sudo tar -zxf hello.tar
+  451  ls
+  452  sudo tar -xvf hello.tar
+  453  xvf      hello.txt
+  454  ls
+  455  sudo tar -xvf hello.tar /tmp
+  456  ls
+  457  sudo tar -l hello.tar
+  458  ls
+  459  sudo tar -cvf hello1.tar file2
+  460  ls
+  461  cat hello1.tar
+  462  ls
+  463  sudo tar -xvf hello1.tar -C /tmp
+  464  ls /tmp
+  465  tar -tvf hello.tar
+  466  cd
+  467  sudo tar -czvf archive.tar.gz my_directory/
+  468  ls
+  469  sudo tar -zxf archive.tar.gz
+  470  ls
+  471  sudo tar -zxf archive.tar.gz  -C /opt
+  472  ls /opt
+  473  ls
+  474  cd /opt
+  475  ls
+  476  cd my_directory/
+  477  ls
+  478  exit
+  479  history
+  480  ls
+  481  cd /opt
+  482  ls
+  483  cd
+  484  ls
+  485  sudo tar -czvf myarchive.tar.gz my_directory/
+  486  sudo tar -czvf myarchive.tar.gz my_directory/ls
+  487  ;s
+  488  ls
+  489  sudo tar -zxf myarchive.tar.gz -C tmp
+  490  cd /tmp
+  491  ls
+  492  cd
+  493  cd my_directory/
+  494  ks
+  495  ls
+  496  cd
+  497  # sudo tar -cvf myarchive.tar /my_directory
+  498  # sudo tar -xvf myarchive.tar /my_directory
+  499  # sudo tar -czvf myarchive.tar.gz /my_directory
+  500  # sudo tar -zxf myarchive.tar.gz -C /tmp
+  501  # sudo zip archive /my_directory
+  502  history
+  503  ls
+  504  file  myarchive2.zip
+  505  file  myarchive.tar.gz
+  506  file myarchive.tar.gz
+  507  zip,unzip gzip gunzip bzip2 bunzip2 tar tar.gz
+  508  history
