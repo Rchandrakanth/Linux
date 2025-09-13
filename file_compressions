@@ -1,0 +1,44 @@
+
+=============== FILE COMPRESSIONS ========================
+  1.gzip   --->
+  2.bzip2
+
+ -  sudo gzip file.txt
+
+ -  sudo gunzip file.txt.gz     ----> to remove the compression on file
+
+ -  sudo zcat  file.txt.gz   --> to see the contains in file 
+
+ -  sudo zgrep "kernel" file.txt.gz
+
+
+
+====================================================
+
+2. sudo bzip2 file1.txt 
+
+- sudo bzcat file1.txt.bz2
+
+-  sudo bzgrep kernel file1.txt.bz2
+
+- sudo bunzip2 file1.txt.bz2
+
+
+=============================================
+
+ - sudo unzip archiev1.zip  --> u will create zip file
+
+  - sudo unzip archive1.zip  --> u will unzip the file
+
+==========================================
+
+- sudo tar -cvf hello.tar file.txt  --> u will create tar file 
+
+- sudo tar -czvf hello2.tar.gz my_directory/  --> u will create tar.gz file 
+
+- sudo tar -xvf hello1.tar   --> un tar the file
+
+- sudo tar -xzvf hello2.tar.gz   ---> un tar the tar.gz file 
+ 
+
+
