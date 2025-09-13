@@ -1,0 +1,38 @@
+# ; semicolon command seperator
+ # execute multiple commands sequencially
+
+shuhari@debian:~$ echo "first command" ; echo "second command"
+first command
+second command
+
+===========================
+
+#& run the command for background ----> ( & )
+
+shuhari@debian:~$
+shuhari@debian:~$ # sleep 100 --> it cannot allow to run anycomand in terminal
+shuhari@debian:~$ man sleep
+shuhari@debian:~$ sleep 60
+^C
+shuhari@debian:~$ sleep 60 &
+[1] 3016
+shuhari@debian:~$ jobs  
+[1]+  Running                 sleep 60 &             --> gives the taks run in background
+
+-  fg 1  --> gives the taks back using forground
+
+====================================
+
+  -- mkdir hello && cd hello   --> && operator  both the command should satisfy execute
+
+-  rm file55 && echo "deleted" || echo "error deleting"   
+    deleted
+
+  -  echo "hello" \
+> then
+hello then
+=======================
+
+  
+
+ 
