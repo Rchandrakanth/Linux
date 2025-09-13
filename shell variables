@@ -1,0 +1,41 @@
+
+system environment variables:-
+
+-  echo $HOME
+/home/shuhari
+
+- echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+-  printenv   or set     --> list all system env variables 
+
+SHELL=/bin/bash
+PWD=/home/shuhari/hello
+LOGNAME=shuhari
+MOTD_SHOWN=pam
+HOME=/home/shuhari
+LANG=en_US.UTF-8
+============================================
+ USER DEFINED VARIABLES 
+
+ # user-defined variables
+shuhari@debian:~/hello$ # these used for temporary data
+shuhari@debian:~/hello$ my_var="hello"
+shuhari@debian:~/hello$ echo $my_var/
+hello/
+shuhari@debian:~/hello$ echo $SHLVL
+1
+shuhari@debian:~/hello$ bash
+shuhari@debian:~/hello$ echo $SHLVL
+2
+shuhari@debian:~/hello$ exit
+exit
+shuhari@debian:~/hello$ echo $SHLVL
+1
+shuhari@debian:~/hello$ export my_var
+shuhari@debian:~/hello$ bash
+shuhari@debian:~/hello$ echo $SHLVL
+2
+shuhari@debian:~/hello$ echo $my_var
+hello
+
